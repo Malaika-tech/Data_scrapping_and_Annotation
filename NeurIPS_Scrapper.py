@@ -12,7 +12,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
 def get_paper_links():
-    """Fetch all paper titles and links from the NeurIPS 2017 page."""
+    """Fetch all paper titles and links from the NeurIPS 2019 page."""
     response = requests.get(BASE_URL, headers=HEADERS)
     
     if response.status_code != 200:
