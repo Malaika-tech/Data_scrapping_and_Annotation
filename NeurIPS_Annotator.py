@@ -5,7 +5,7 @@ import mysql.connector
 import time
 
 # Define Gemini API Key 
-GEMINI_API_KEY = "AIzaSyAkUltJpF1mttTTbxpHUBhFFshwSnDfG-A"
+GEMINI_API_KEY = "GEMINI_API_KEY"
 
 # Define paper categories
 CATEGORIES = ["Machine Learning", "Computer Vision", "Natural Language Processing", 
