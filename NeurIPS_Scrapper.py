@@ -4,9 +4,9 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
-BASE_URL = "https://papers.nips.cc/paper_files/paper/2017"
-OUTPUT_DIR = "nips_papers_2017"
-CSV_FILE = "neurips_2017_papers.csv"
+BASE_URL = "https://papers.nips.cc/paper_files/paper/2019"
+OUTPUT_DIR = "nips_papers_2019"
+CSV_FILE = "neurips_2019_papers.csv"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 HEADERS = {"User-Agent": "Mozilla/5.0"}
